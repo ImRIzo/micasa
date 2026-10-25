@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ImRizo/micasa/actions/workflows/build.yml"><img src="https://github.com/ImRizo/micasa/actions/workflows/build.yml/badge.svg" alt="Build"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-black?logo=apple" alt="macOS 14+">
   <img src="https://img.shields.io/badge/Apple%20Silicon-arm64-blue" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift" alt="SwiftUI">
