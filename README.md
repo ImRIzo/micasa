@@ -19,7 +19,7 @@
 Open a photo from Finder and it fills the screen over a dimmed desktop, or floats on the desktop as a borderless window that is just the photo. Edit it, save a copy, move on.
 
 <p align="center">
-  <img src="assets/demo.gif" width="800" alt="Micasa demo">
+  <img src="demo.gif" alt="Micasa demo">
 </p>
 
 ## What works
