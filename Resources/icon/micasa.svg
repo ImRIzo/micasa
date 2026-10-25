@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Micasa</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E6E9EF"/>
+    </linearGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5B6B82"/><stop offset="1" stop-color="#2E3A4C"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8A9BB3"/><stop offset="1" stop-color="#55667E"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#FFE27A"/><stop offset="1" stop-color="#FFB300"/>
+    </radialGradient>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="lens"><circle cx="512" cy="512" r="118.0"/></clipPath>
+    <radialGradient id="p0" cx="512" cy="512" r="300.0" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#F0413A" stop-opacity="0.92"/><stop offset="1" stop-color="#F0413A"/></radialGradient>
+<radialGradient id="p1" cx="512" cy="512" r="300.0" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#FF8C1A" stop-opacity="0.92"/><stop offset="1" stop-color="#FF8C1A"/></radialGradient>
+<radialGradient id="p2" cx="512" cy="512" r="300.0" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#FFC915" stop-opacity="0.92"/><stop offset="1" stop-color="#FFC915"/></radialGradient>
+<radialGradient id="p3" cx="512" cy="512" r="300.0" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#30C062" stop-opacity="0.92"/><stop offset="1" stop-color="#30C062"/></radialGradient>
+<radialGradient id="p4" cx="512" cy="512" r="300.0" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#1F8EF1" stop-opacity="0.92"/><stop offset="1" stop-color="#1F8EF1"/></radialGradient>
+<radialGradient id="p5" cx="512" cy="512" r="300.0" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#8B5CF0" stop-opacity="0.92"/><stop offset="1" stop-color="#8B5CF0"/></radialGradient>
+  </defs>
+  <!-- macOS icon grid: 824 x 824 tile, 100 px margin -->
+  <rect x="100" y="100" width="824" height="824" rx="185" ry="185" fill="url(#tile)" filter="url(#drop)"/>
+  <rect x="101" y="101" width="822" height="822" rx="184" ry="184" fill="none" stroke="#000" stroke-opacity="0.06" stroke-width="2"/>
+  <g filter="url(#soft)">
+    <path d="M 512.00 380.00 Q 528.60 274.58 652.84 247.12 A 300.0 300.0 0 0 1 811.82 501.53 Q 725.91 407.67 626.32 446.00 A 132.0 132.0 0 0 0 512.00 380.00 Z" fill="url(#p0)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+<path d="M 626.32 446.00 Q 725.91 407.67 811.82 501.53 A 300.0 300.0 0 0 1 670.98 766.41 Q 709.31 645.09 626.32 578.00 A 132.0 132.0 0 0 0 626.32 446.00 Z" fill="url(#p1)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+<path d="M 626.32 578.00 Q 709.31 645.09 670.98 766.41 A 300.0 300.0 0 0 1 371.16 776.88 Q 495.40 749.42 512.00 644.00 A 132.0 132.0 0 0 0 626.32 578.00 Z" fill="url(#p2)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+<path d="M 512.00 644.00 Q 495.40 749.42 371.16 776.88 A 300.0 300.0 0 0 1 212.18 522.47 Q 298.09 616.33 397.68 578.00 A 132.0 132.0 0 0 0 512.00 644.00 Z" fill="url(#p3)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+<path d="M 397.68 578.00 Q 298.09 616.33 212.18 522.47 A 300.0 300.0 0 0 1 353.02 257.59 Q 314.69 378.91 397.68 446.00 A 132.0 132.0 0 0 0 397.68 578.00 Z" fill="url(#p4)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+<path d="M 397.68 446.00 Q 314.69 378.91 353.02 257.59 A 300.0 300.0 0 0 1 652.84 247.12 Q 528.60 274.58 512.00 380.00 A 132.0 132.0 0 0 0 397.68 446.00 Z" fill="url(#p5)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+  </g>
+  <circle cx="512" cy="512" r="128.0" fill="#FFFFFF" filter="url(#soft)"/>
+  <g clip-path="url(#lens)">
+    <rect x="380" y="380" width="264" height="264" fill="#EAF4FF"/>
+    <circle cx="552" cy="470" r="34" fill="url(#sun)"/>
+    <path d="M 370 600 L 455 495 Q 462 487 470 495 L 520 552 L 548 522 Q 556 514 564 522 L 660 620 L 660 660 L 370 660 Z" fill="url(#hill2)"/>
+    <path d="M 370 640 L 430 560 Q 438 550 446 560 L 520 640 L 580 586 Q 588 579 596 586 L 660 640 L 660 660 L 370 660 Z" fill="url(#hill1)"/>
+  </g>
+  <circle cx="512" cy="512" r="118.0" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</svg>
